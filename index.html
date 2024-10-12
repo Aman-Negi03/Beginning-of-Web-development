@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Designing a grid</title>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+    .boxes{
+      width: 80vw;
+     height:20vh;
+     background:#EFEFEF;
+     text-align: center;
+     margin: 10px
+     
+    }
+    .box1{
+      grid-row: 1/2;
+    }
+    .box2{
+      grid-row: 2/3;
+    }
+    .box3{
+      grid-row: 3/4
+    }
+    .container{
+      display: grid;
+      grid-template-rows: 161px 161px 161px
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    
+ 
+  <div class="boxes box1">
+    <h2>english</h2>
+    <a href="">Download 32-bit</a>
+    <a href="">Download 64-bit</a>
+  </div>
+  <div class="boxes box2 "><h2>hindi</h2></div>
+  <div class="boxes box3"><h2>Tamil</h2></div>
+  <div class="boxes "><h2>Gadwali</h2></div>
+  <div class="boxes"><h2>kumauni</h2></div>
+  <div class="boxes"><h2>marathi</h2></div>
+  <div class="boxes"><h2>punjabi</h2></div>
+  <div class="boxes"><h2>himachali</h2></div>
+  <div class="boxes"><h2>bengali</h2></div>
+ </div>
+</body>
+
+</html>
